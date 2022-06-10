@@ -146,7 +146,7 @@ int main(int argc, char *argv[])
                 tlb[index_maior][1] = frame;
             }
         }
-        //printf("%d\n", maior);
+        
         if (!strcmp(argv[2], "lru")) {
             atualizaLRU();
         }
