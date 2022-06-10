@@ -3,13 +3,13 @@
 #include <string.h>
 #include <pthread.h>
 
-const int TAM_PAGE = 256;
+const int TAM_PAGE = 128;
 const int TAM_TLB = 16;
 const int QUANT_FRAMES = 128;
 
 FILE *arquivo, *arquivo2, *arquivo3;
 
-int tabela_pag[256];  // pageid
+int tabela_pag[128];  // pageid
 int tlb[16][2];       // pageid e frame
 signed char buffer[256];
 int memoria_fisica[128][256];
