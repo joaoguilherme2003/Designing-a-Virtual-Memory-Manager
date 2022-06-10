@@ -24,6 +24,8 @@ O arquivo de saída será denominado como correct.txt;
 
 Esta implementação foi desenvolvida no ambiente linux.
 
+Toda a implementação esta no arquivo main.c
+
 # Como clonar
 
 Para rodar esta implementação é preciso dar gitclone neste repositorio, por meio do seguinte comando:
