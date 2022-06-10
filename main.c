@@ -97,7 +97,7 @@ int main(int argc, char *argv[])
                     
                     frame = i;
                     check_pagetable = 1;
-      				break;
+      		    break;
                 }
             }
             if (check_pagetable == 0 && !strcmp(argv[2], "fifo")) {         // FIFO) caso o frame não seja encontrado na pagetable é preciso ir para o BACKINGSTORE
