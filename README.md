@@ -20,9 +20,6 @@ indica que o algoritmo de substituição da página será o lru e da TLB o fifo.
 A busca pela referência na TLB deverá ser realizada com uma thread para cada entrada da
 TLB a fim de simular uma otimização da busca;
 
-A busca pela referência na TLB deverá ser realizada com uma thread para cada entrada da
-TLB a fim de simular uma otimização da busca;
-
 O arquivo de saída será denominado como correct.txt;
 
 Esta implementação foi desenvolvida no ambiente linux.
