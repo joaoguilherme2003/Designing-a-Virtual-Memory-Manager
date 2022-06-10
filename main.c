@@ -73,11 +73,11 @@ int main(int argc, char *argv[])
         endereco_logico = endereco;     // Tradução de endereços
           
         offset = endereco;
-  		offset = offset & 255;
+  	offset = offset & 255;
     
         page_id = endereco;           
-  		page_id = page_id >> 8;
-  		page_id = page_id & 255;
+  	page_id = page_id >> 8;
+  	page_id = page_id & 255;
   		
         enderecos_traduzidos++;
   
